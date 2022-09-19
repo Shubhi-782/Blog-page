@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+/* font-family: 'Silkscreen', cursive;
+font-family: 'Gloria Hallelujah', cursive; */
+
+:root {
+    --main-bg-color: #724db3;
+    --font-1: 'Silkscreen', cursive;
+    --font-2: 'Gloria Hallelujah', cursive;
+}
+
+.max-width-1 {
+    max-width: 90vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.form-input {
+    padding: 3px 4px;
+    font-size: 13px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0 5px;
+    font-family: var(--font-1);
+}
+
+.btn {
+    font-size: 12px;
+    padding: 2px 5px;
+    border-radius: 10px;
+    margin-right: 16px;
+    font-family: var(--font-1);
+}
+
+.btn:hover {
+    background-color: var(--main-bg-color);
+    color: white;
+    transition: all 0.3s ease-in;
+}
+
+.form-box input,
+textarea {
+    width: 45vw;
+    padding: 4px 8px;
+    margin: 5px 5px;
+    border: 2px solid palevioletred;
+    border-radius: 9px;
+    font-family: cursive;
+}
+
+.btn {
+    margin-left: 5px;
+}

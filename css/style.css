@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+}
+
+.navigation {
+    height: 64px;
+    font-family: var(--font-2);
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8px;
+}
+
+.navigation span {
+    font-size: 30px;
+}
+
+.nav-left {
+    font-size: 16px;
+    display: flex;
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.nav-left ul li {
+    list-style: none;
+    margin: 0 10px;
+    font-family: var(--font-1);
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-left ul li a:hover {
+    color: var(--main-bg-color);
+    font-weight: bolder;
+}
+
+.content {
+    display: flex;
+    margin-top: 50px;
+    padding: 15 20px;
+    height: 75vw;
+    align-items: flex-start;
+    position: relative;
+}
+
+.content::after {
+    content: "";
+    background-image: url('../img/6.jpg');
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.1;
+    border-radius: 20px;
+}
+
+.content img {
+    height: 280px;
+    margin-top: 130px;
+    margin-left: 350px;
+    border: 2px solid black;
+    border-radius: 10px;
+    border-width: 3px;
+}
+
+
+.content-left {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: var(--font-2);
+    padding: 0 11px;
+    z-index: 1;
+}
+
+.content-right {
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.home-articles {
+    background: rgb(228, 237, 240);
+    padding: 10px;
+    margin-top: 50px;
+
+}
+
+.footer {
+    height: 40px;
+    /* background-color: coral; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--main-bg-color);
+    color: white;
+}
+
+.articles {
+    display: flex;
+    margin: 15px;
+}
+
+.articles a {
+    text-decoration: none;
+    color: var(--main-bg-color);
+}
+
+.articles img {
+    height: 170px;
+}
+
+.article-content {
+    align-self: center;
+    padding: 25px;
+}
+
+h1,
+h2 {
+    font-family: var(--font-1);
+}
+
+p {
+    color: #554994;
+}
